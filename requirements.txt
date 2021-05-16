@@ -1,4 +1,5 @@
 pytelegrambotapi
-pillow
-fitz
-PyPDF2
+pymupdf
+requests
+python-pptx
+python-docx
