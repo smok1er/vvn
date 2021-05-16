@@ -1,1 +1,1 @@
-worker: python msg.py
+worker: python translat.py
