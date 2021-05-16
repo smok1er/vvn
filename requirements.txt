@@ -1,0 +1,4 @@
+pytelegrambotapi
+pillow
+fitz
+PyPDF2
