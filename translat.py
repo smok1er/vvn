@@ -16,8 +16,8 @@ import glob
 print('tran')
 r1 = requests.session()
 idi = 209501902
-token = '1215240244:AAGIv5jStQInzu7Qvx_XmPOwsEeyNT104fk'
-bot = telebot.TeleBot("1215240244:AAGIv5jStQInzu7Qvx_XmPOwsEeyNT104fk")
+token = '1215240244:AAFUxNtq3fZH48mi1xd8kHpyje0r0GA137A'
+bot = telebot.TeleBot("1215240244:AAFUxNtq3fZH48mi1xd8kHpyje0r0GA137A")
 open('tran.txt', 'a').write('')
 c = []
 g = []
