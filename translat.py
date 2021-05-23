@@ -44,12 +44,12 @@ def key(msg):
         else:
             idd = msg.chat.id
             res = \
-                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@HNHNHN2001&user_id={idd}').json()[
+                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@nu977&user_id={idd}').json()[
                     'result'][
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@HNHNHN2001')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@nu977')
 
             else:
                 q = types.InlineKeyboardMarkup()
@@ -82,12 +82,12 @@ def an(msg):
                 open('tran.txt', 'a').write(f'{msg.chat.id}\n')
             idd = msg.chat.id
             res = \
-                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@HNHNHN2001&user_id={idd}').json()[
+                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@nu977&user_id={idd}').json()[
                     'result'][
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@HNHNHN2001')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@nu977')
 
             else:
                 try:
@@ -385,12 +385,12 @@ def an(msg):
                 open('tran.txt', 'a').write(f'{msg.chat.id}\n')
             idd = msg.chat.id
             res = \
-                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@HNHNHN2001&user_id={idd}').json()[
+                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@nu977&user_id={idd}').json()[
                     'result'][
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@HNHNHN2001')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@nu977')
 
             else:
                 ch = msg.chat.id
