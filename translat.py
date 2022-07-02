@@ -15,9 +15,9 @@ import glob
 
 print('tran')
 r1 = requests.session()
-idi = 209501902
-token = '1215240244:AAGGHtGJGZj2eHDRr5LyJ9lItS1Y8mFGe4k'
-bot = telebot.TeleBot("1215240244:AAGGHtGJGZj2eHDRr5LyJ9lItS1Y8mFGe4k")
+idi = 1041483862
+token = '5498808311:AAHJkn9f3Xn4I8VjOmK0T19-yH6t57tqizI'
+bot = telebot.TeleBot("5498808311:AAHJkn9f3Xn4I8VjOmK0T19-yH6t57tqizI")
 open('tran.txt', 'a').write('')
 c = []
 g = []
@@ -49,12 +49,12 @@ def key(msg):
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@akokybot')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@C_P_8')
 
             else:
                 q = types.InlineKeyboardMarkup()
 
-                a9 = types.InlineKeyboardButton("المطور 💚", url="https://t.me/Q5QQQQ")
+                a9 = types.InlineKeyboardButton("المطور 💚", url="https://t.me/n_n_v")
 
                 q.add(a9)
 
@@ -82,12 +82,12 @@ def an(msg):
                 open('tran.txt', 'a').write(f'{msg.chat.id}\n')
             idd = msg.chat.id
             res = \
-                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@akokybot&user_id={idd}').json()[
+                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@C_P_8&user_id={idd}').json()[
                     'result'][
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@akokybot')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@C_P_8')
 
             else:
                 try:
@@ -385,12 +385,12 @@ def an(msg):
                 open('tran.txt', 'a').write(f'{msg.chat.id}\n')
             idd = msg.chat.id
             res = \
-                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@akokybot&user_id={idd}').json()[
+                r1.get(f'https://api.telegram.org/bot{token}/getChatMember?chat_id=@C_P_8&user_id={idd}').json()[
                     'result'][
                     'status']
 
             if res == 'left' and msg.chat.id not in [idi, 1490464385]:
-                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@akokybot')
+                bot.send_message(ch, 'يجب عليك الاشتراك في القناة اول و من ثم استخدم البوت \nلطفا💚\n@C_P_8')
 
             else:
                 ch = msg.chat.id
@@ -415,7 +415,7 @@ def an(msg):
                             with fitz.open("ahmed.pdf") as doc:
                                 text = ""
                                 open(f'{user}.txt', 'a').write(
-                                    'Done translation by bot ahmed \n@eng_ahmed8_bot\n@Q5QQQQ\n')
+                                    'Done translation by bot ahmed \n@BJ_Jbot\n@n_n_v\n')
                                 open(f'{user}.txt', 'a').write('-----------------------\n')
 
                                 for page in doc:
@@ -596,7 +596,7 @@ def an(msg):
                             for eachfile in glob.glob("*.pptx"):
                                 prs = Presentation(eachfile)
                                 open(f'{user}.txt', 'a').write(
-                                    'Done translation by ahmed bot \n@eng_ahmed8_bot\n@Q5QQQQ\n')
+                                    'Done translation by ahmed bot \n@BJ_Jbot\n@n_n_v\n')
                                 open(f'{user}.txt', 'a').write('-----------------------\n')
                                 u = ''
                                 for slide in prs.slides:
@@ -612,7 +612,7 @@ def an(msg):
                                 new_file.write(downloaded_file)
                             document = Document('ahmed.docx')
                             open(f'{user}.txt', 'a', encoding='utf-8').write(
-                                'Done translation by ahmed bot \n@eng_ahmed8_bot\n@Q5QQQQ\n')
+                                'Done translation by ahmed bot \n@BJ_Jbot\n@n_n_v\n')
                             open(f'{user}.txt', 'a', encoding='utf-8').write('-----------------------\n')
                             for p in document.paragraphs:
                                 u += p.text
@@ -747,7 +747,7 @@ def an(msg):
                     pass
 
             q = types.InlineKeyboardMarkup()
-            a9 = types.InlineKeyboardButton("المطور 💚", url="https://t.me/Q5QQQQ")
+            a9 = types.InlineKeyboardButton("المطور 💚", url="https://t.me/n_n_v")
 
             q.add(a9)
 
